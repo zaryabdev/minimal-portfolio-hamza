@@ -23,10 +23,10 @@ function App() {
     useEffect(() => {
         if (theme === "dark") {
             document.documentElement.classList.add("dark");
-            document.title = "Zaryab's Portfolio";
+            document.title = "Hamza's Portfolio";
         } else {
             document.documentElement.classList.remove("dark");
-            document.title = "Xaryab's Portfolio";
+            document.title = "Hamxa's Portfolio";
         }
     }, [theme]);
 
